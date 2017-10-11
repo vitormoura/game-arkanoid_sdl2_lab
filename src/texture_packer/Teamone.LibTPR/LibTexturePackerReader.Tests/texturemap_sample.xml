@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="texture.png" width="654" height="654" scale="1" format="RGBA8888">
+  <sprite n="buttonSelected.png" x="1" y="1" w="190" h="49" pX="0.5" pY="0.5"/>
+  <sprite n="buttonDefault.png" x="1" y="52" w="190" h="49" pX="0.5" pY="0.5"/>
+  <sprite n="paddleBlu.png" x="193" y="1" w="104" h="24" pX="0.5" pY="0.5"/>
+  <sprite n="element_blue_diamond.png" x="1" y="103" w="48" h="48" pX="0.5" pY="0.5"/>
+  <sprite n="paddleRed.png" x="193" y="27" w="104" h="24" pX="0.5" pY="0.5"/>
+  <sprite n="element_blue_rectangle.png" x="299" y="1" w="64" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_blue_diamond_glossy.png" x="1" y="153" w="48" h="48" pX="0.5" pY="0.5"/>
+  <sprite n="element_green_diamond.png" x="51" y="103" w="48" h="48" pX="0.5" pY="0.5"/>
+  <sprite n="element_blue_rectangle_glossy.png" x="193" y="53" w="64" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_green_rectangle.png" x="299" y="35" w="64" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_green_rectangle_glossy.png" x="365" y="1" w="64" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_green_diamond_glossy.png" x="1" y="203" w="48" h="48" pX="0.5" pY="0.5"/>
+  <sprite n="element_grey_diamond.png" x="51" y="153" w="48" h="48" pX="0.5" pY="0.5"/>
+  <sprite n="element_grey_rectangle.png" x="101" y="103" w="64" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_grey_rectangle_glossy.png" x="193" y="87" w="64" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_purple_rectangle.png" x="259" y="69" w="64" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_purple_rectangle_glossy.png" x="365" y="35" w="64" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_red_rectangle.png" x="431" y="1" w="64" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_grey_diamond_glossy.png" x="1" y="253" w="48" h="48" pX="0.5" pY="0.5"/>
+  <sprite n="element_purple_diamond.png" x="51" y="203" w="48" h="48" pX="0.5" pY="0.5"/>
+  <sprite n="element_purple_diamond_glossy.png" x="101" y="137" w="48" h="48" pX="0.5" pY="0.5"/>
+  <sprite n="element_red_rectangle_glossy.png" x="167" y="121" w="64" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_yellow_rectangle.png" x="259" y="103" w="64" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_yellow_rectangle_glossy.png" x="325" y="69" w="64" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="buttonDefault_bottomleft.png" x="259" y="53" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="element_blue_polygon.png" x="431" y="35" w="48" h="46" pX="0.5" pY="0.5"/>
+  <sprite n="element_blue_polygon_glossy.png" x="497" y="1" w="48" h="46" pX="0.5" pY="0.5"/>
+  <sprite n="element_red_diamond.png" x="1" y="303" w="48" h="48" pX="0.5" pY="0.5"/>
+  <sprite n="element_red_diamond_glossy.png" x="51" y="253" w="48" h="48" pX="0.5" pY="0.5"/>
+  <sprite n="element_yellow_diamond.png" x="101" y="187" w="48" h="48" pX="0.5" pY="0.5"/>
+  <sprite n="buttonDefault_bottomright.png" x="167" y="103" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="element_yellow_diamond_glossy.png" x="151" y="155" w="48" h="48" pX="0.5" pY="0.5"/>
+  <sprite n="element_green_polygon.png" x="233" y="137" w="48" h="46" pX="0.5" pY="0.5"/>
+  <sprite n="element_green_polygon_glossy.png" x="325" y="103" w="48" h="46" pX="0.5" pY="0.5"/>
+  <sprite n="buttonDefault_left.png" x="273" y="53" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="element_grey_polygon.png" x="391" y="83" w="48" h="46" pX="0.5" pY="0.5"/>
+  <sprite n="element_grey_polygon_glossy.png" x="547" y="1" w="48" h="46" pX="0.5" pY="0.5"/>
+  <sprite n="element_purple_polygon.png" x="481" y="49" w="48" h="46" pX="0.5" pY="0.5"/>
+  <sprite n="element_purple_polygon_glossy.png" x="1" y="353" w="48" h="46" pX="0.5" pY="0.5"/>
+  <sprite n="element_red_polygon.png" x="51" y="303" w="48" h="46" pX="0.5" pY="0.5"/>
+  <sprite n="element_red_polygon_glossy.png" x="101" y="237" w="48" h="46" pX="0.5" pY="0.5"/>
+  <sprite n="particleCartoonStar.png" x="181" y="103" w="10" h="10" pX="0.5" pY="0.5"/>
+  <sprite n="element_yellow_polygon.png" x="151" y="205" w="48" h="46" pX="0.5" pY="0.5"/>
+  <sprite n="buttonDefault_mid.png" x="151" y="137" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="buttonDefault_right.png" x="233" y="121" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="element_yellow_polygon_glossy.png" x="201" y="185" w="48" h="46" pX="0.5" pY="0.5"/>
+  <sprite n="selectorA.png" x="283" y="151" w="38" h="38" pX="0.5" pY="0.5"/>
+  <sprite n="buttonDefault_top.png" x="391" y="69" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="particleSmallStar.png" x="287" y="53" w="10" h="10" pX="0.5" pY="0.5"/>
+  <sprite n="selectorB.png" x="375" y="131" w="38" h="38" pX="0.5" pY="0.5"/>
+  <sprite n="element_blue_square.png" x="597" y="1" w="32" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_blue_square_glossy.png" x="531" y="49" w="32" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="buttonDefault_topleft.png" x="481" y="35" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="element_green_square.png" x="441" y="97" w="32" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_green_square_glossy.png" x="1" y="401" w="32" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_grey_square.png" x="51" y="351" w="32" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_purple_cube_glossy.png" x="101" y="285" w="32" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_purple_square.png" x="151" y="253" w="32" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="element_red_square.png" x="201" y="233" w="32" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="ballBlue.png" x="201" y="155" w="22" h="22" pX="0.5" pY="0.5"/>
+  <sprite n="buttonDefault_topright.png" x="283" y="137" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="element_red_square_glossy.png" x="251" y="191" w="32" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="buttonSelected_bottom.png" x="405" y="69" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="element_yellow_square.png" x="415" y="131" w="32" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="buttonSelected_bottomleft.png" x="375" y="103" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="element_yellow_square_glossy.png" x="323" y="171" w="32" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="selectorC.png" x="597" y="35" w="32" h="32" pX="0.5" pY="0.5"/>
+  <sprite n="ballGrey.png" x="631" y="1" w="22" h="22" pX="0.5" pY="0.5"/>
+  <sprite n="particleStar.png" x="531" y="83" w="20" h="21" pX="0.5" pY="0.5"/>
+  <sprite n="buttonSelected_bottomright.png" x="441" y="83" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="buttonSelected_left.png" x="1" y="435" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="buttonSelected_mid.png" x="35" y="401" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="buttonSelected_right.png" x="51" y="385" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="buttonSelected_top.png" x="85" y="351" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="buttonSelected_topleft.png" x="101" y="319" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="buttonSelected_topright.png" x="135" y="287" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="buttonDefault_bottom.png" x="235" y="233" w="12" h="12" pX="0.5" pY="0.5"/>
+  <sprite n="element_grey_square_glossy.png" x="51" y="351" w="32" h="32" pX="0.5" pY="0.5"/>
+</TextureAtlas>
+<!--
+Created with Free texture packer v0.2.4 http://free-tex-packer.com/
+Format:
+n  => name
+x  => x pos
+y  => y pos
+w  => width
+h  => height
+pX => x pos of the pivot point
+pY => y pos of the pivot point
+oX => x-corner offset
+oY => y-corner offset
+oW => original width
+oH => original height
+r => 'y' if sprite is rotated-->

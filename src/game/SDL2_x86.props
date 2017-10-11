@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <SDL_HOME>D:\Ferramentas\Libs</SDL_HOME>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SDL_HOME)\SDL2\include;$(SDL_HOME)\SDL2_Image\include;$(SDL_HOME)\SDL2_mixer\include;$(SDL_HOME)\SDL2_TTF\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SDL_HOME)\SDL2\lib\x86;$(SDL_HOME)\SDL2_Image\lib\x86;$(SDL_HOME)\SDL2_mixer\lib\x86;$(SDL_HOME)\SDL2_TTF\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="SDL_HOME">
+      <Value>$(SDL_HOME)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

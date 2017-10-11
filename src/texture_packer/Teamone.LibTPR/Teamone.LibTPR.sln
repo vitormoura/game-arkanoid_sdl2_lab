@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibTexturePackerReader", "LibTexturePackerReader\LibTexturePackerReader.vcxproj", "{5E112A24-AED3-4DFF-84BF-0A48FB39905C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibTexturePackerReader.Tests", "LibTexturePackerReader.Tests\LibTexturePackerReader.Tests.vcxproj", "{08A5D65E-E366-49B2-BC4C-D153C5E9A7AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E112A24-AED3-4DFF-84BF-0A48FB39905C}.Debug|x64.ActiveCfg = Debug|x64
+		{5E112A24-AED3-4DFF-84BF-0A48FB39905C}.Debug|x64.Build.0 = Debug|x64
+		{5E112A24-AED3-4DFF-84BF-0A48FB39905C}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E112A24-AED3-4DFF-84BF-0A48FB39905C}.Debug|x86.Build.0 = Debug|Win32
+		{5E112A24-AED3-4DFF-84BF-0A48FB39905C}.Release|x64.ActiveCfg = Release|x64
+		{5E112A24-AED3-4DFF-84BF-0A48FB39905C}.Release|x64.Build.0 = Release|x64
+		{5E112A24-AED3-4DFF-84BF-0A48FB39905C}.Release|x86.ActiveCfg = Release|Win32
+		{5E112A24-AED3-4DFF-84BF-0A48FB39905C}.Release|x86.Build.0 = Release|Win32
+		{08A5D65E-E366-49B2-BC4C-D153C5E9A7AC}.Debug|x64.ActiveCfg = Debug|x64
+		{08A5D65E-E366-49B2-BC4C-D153C5E9A7AC}.Debug|x64.Build.0 = Debug|x64
+		{08A5D65E-E366-49B2-BC4C-D153C5E9A7AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{08A5D65E-E366-49B2-BC4C-D153C5E9A7AC}.Debug|x86.Build.0 = Debug|Win32
+		{08A5D65E-E366-49B2-BC4C-D153C5E9A7AC}.Release|x64.ActiveCfg = Release|x64
+		{08A5D65E-E366-49B2-BC4C-D153C5E9A7AC}.Release|x64.Build.0 = Release|x64
+		{08A5D65E-E366-49B2-BC4C-D153C5E9A7AC}.Release|x86.ActiveCfg = Release|Win32
+		{08A5D65E-E366-49B2-BC4C-D153C5E9A7AC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

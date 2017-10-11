@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="24" height="24" tilewidth="32" tileheight="32" nextobjectid="80">
+ <tileset firstgid="1" name="routes_003" tilewidth="32" tileheight="32" tilecount="1792" columns="8">
+  <image source="lab_tilemap_001.png" trans="ff00ff" width="256" height="7199"/>
+  <tile id="44">
+   <properties>
+    <property name="Type" value="teste"/>
+   </properties>
+   <objectgroup draworder="index">
+    <properties>
+     <property name="Tag" value="Pared"/>
+     <property name="testeeditor" value="aabcd"/>
+    </properties>
+    <object id="5" x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="Tag" value="testetag"/>
+    <property name="teste" value="valorteste"/>
+   </properties>
+   <objectgroup draworder="index" name="testenome">
+    <properties>
+     <property name="Tag" value="tageditor"/>
+     <property name="teste" value="abcdef"/>
+    </properties>
+   </objectgroup>
+  </tile>
+  <tile id="176">
+   <objectgroup draworder="index">
+    <object id="1" x="-3" y="-2" width="40" height="37"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Terrain" width="24" height="24">
+  <data encoding="csv">
+1116,1117,1118,917,917,917,917,917,917,917,917,917,917,917,917,917,917,917,917,917,917,917,917,918,
+1124,1125,1126,734,732,733,734,732,733,734,732,1,27,732,733,734,732,733,734,732,733,734,725,926,
+1132,1133,1134,671,671,671,671,671,671,671,671,925,925,796,797,798,796,797,798,796,797,798,733,926,
+924,733,1101,671,671,671,671,671,671,671,671,925,925,804,805,806,804,805,806,804,805,806,741,926,
+924,741,1101,671,671,671,671,671,671,671,671,925,925,812,813,814,812,813,814,812,813,814,725,926,
+924,733,1101,671,671,671,671,671,671,671,671,925,925,796,797,798,796,797,798,796,797,798,733,926,
+924,741,1101,671,671,671,671,671,671,671,671,925,925,804,805,806,804,805,806,804,805,806,741,926,
+924,725,1101,671,671,671,671,671,671,671,671,925,925,812,813,814,812,813,814,812,813,814,725,926,
+924,733,1101,671,671,671,671,671,671,671,671,925,925,796,797,798,796,797,798,796,797,798,733,926,
+924,741,1101,671,671,671,671,671,671,671,671,925,925,804,805,806,804,805,806,11,805,806,741,926,
+924,725,1101,671,671,671,671,671,671,671,671,637,637,812,813,814,812,813,814,812,813,814,725,926,
+924,733,925,925,925,925,925,925,925,925,637,637,637,637,925,925,925,925,925,925,925,925,733,926,
+924,741,925,925,925,925,925,925,925,925,637,637,637,637,925,925,925,925,925,925,925,925,725,926,
+924,725,685,685,685,685,685,685,637,637,637,637,637,637,637,637,936,936,936,936,936,936,733,926,
+924,733,685,685,685,685,685,685,637,637,637,925,925,637,637,637,936,936,936,936,936,936,741,926,
+924,741,685,685,685,685,685,685,637,637,637,925,925,637,637,637,936,936,936,936,936,936,725,926,
+924,725,685,685,685,685,685,685,685,685,685,925,925,936,936,936,936,936,936,936,936,936,733,926,
+924,733,685,685,685,685,685,685,685,685,685,925,925,936,936,936,936,936,936,936,936,936,741,926,
+924,741,685,685,685,685,685,685,685,685,685,925,925,936,936,936,936,936,936,936,936,936,725,926,
+924,725,685,685,685,685,685,685,685,685,685,925,925,936,936,936,936,936,936,936,936,936,733,926,
+924,733,685,685,685,685,685,685,685,685,685,925,925,936,936,936,936,936,936,936,936,936,725,926,
+924,741,685,685,685,685,685,685,685,685,685,925,925,4,6,6,4,6,4,4,4,652,653,654,
+924,732,733,734,732,733,734,732,733,734,732,733,734,732,733,734,732,733,734,732,733,660,661,662,
+932,933,933,933,933,933,933,933,933,933,933,933,933,933,933,933,933,933,933,933,933,668,669,670
+</data>
+ </layer>
+ <imagelayer name="Imagens" visible="0">
+  <image source="code-solid-circ.png" trans="000000" width="185" height="185"/>
+ </imagelayer>
+ <layer name="Collision" width="24" height="24" visible="0">
+  <data encoding="csv">
+0,0,0,0,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,45,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,58,58,58,58,58,58,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+58,58,58,58,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,58,58,58,58,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="Regions" visible="0">
+  <object id="32" name="Grass" type="GroundEffect" x="416" y="64" width="288" height="288"/>
+  <object id="33" name="Ice" type="GroundEffect" x="97" y="64" width="255" height="288">
+   <properties>
+    <property name="LifeDegen" type="float" value="0.5"/>
+    <property name="Slippery" type="bool" value="true"/>
+    <property name="SpeedModifier" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="56" name="Glass" type="GroundEffect" x="64" y="416">
+   <polygon points="0,0 192,0 192,96 288,96 288,288 0,288"/>
+  </object>
+  <object id="58" name="Furnace" type="GroundEffect" x="416" y="501.333">
+   <properties>
+    <property name="SpeedModifier" type="float" value="3"/>
+   </properties>
+   <polygon points="0,10 94.6667,11 95.6667,-85.3333 287,-85.3333 287,170.667 0,170.667"/>
+  </object>
+  <object id="64" name="Goal" type="Goal" x="692" y="688" width="64" height="64"/>
+  <object id="66" name="Start" type="Start" x="15.333" y="15.5" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="Enemies" visible="0">
+  <object id="59" name="w1" type="Wanderer" x="416" y="98" width="32" height="32"/>
+  <object id="60" name="w5" type="Wanderer" x="192" y="543" width="32" height="32"/>
+  <object id="61" name="w2" type="Wanderer" x="417" y="176" width="32" height="32"/>
+  <object id="62" name="w3" type="Wanderer" x="418" y="254" width="32" height="32"/>
+  <object id="63" name="a2" type="Archer" x="448" y="576" width="32" height="32">
+   <properties>
+    <property name="Direction" type="int" value="-1"/>
+   </properties>
+  </object>
+  <object id="74" name="w4" type="Wanderer" x="98" y="271" width="32" height="32"/>
+  <object id="75" name="a1" type="Archer" x="544" y="448" width="32" height="32">
+   <properties>
+    <property name="Direction" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="76" name="w6" type="Wanderer" x="159" y="641" width="32" height="32"/>
+  <object id="77" name="cannon_1" type="Cannon" x="223" y="706" width="32" height="32">
+   <properties>
+    <property name="Direction" type="int" value="1"/>
+    <property name="Distance" type="int" value="4"/>
+    <property name="Frequency" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="78" name="cannon_2" type="Cannon" x="705" y="320" width="64" height="64">
+   <properties>
+    <property name="Direction" type="int" value="-1"/>
+    <property name="Distance" type="int" value="16"/>
+    <property name="Frequency" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="79" name="cannon_3" type="Cannon" x="704" y="31" width="32" height="32">
+   <properties>
+    <property name="Direction" type="int" value="-1"/>
+    <property name="Distance" type="int" value="4"/>
+    <property name="Frequency" type="int" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
